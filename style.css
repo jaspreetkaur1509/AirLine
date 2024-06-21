@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 3px solid black; */
+    /* overflow-x: hidden; */
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* .main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+} */
+
+/* background image with Navigation Bar */
+.parentdiv {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(journey/j1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #dadada;
+    /* background-color: red; */
+}
+
+.nav h1 {
+    color: #263e3e;
+    font-size: 2.5vw;
+    font-weight: 600;
+    padding: 0 3vw;
+}
+
+.nav2 {
+    color: #263e3e;
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    padding: 0 2vw;
+}
+
+.nav2 i{
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.ri-menu-3-fill{
+    display: none;
+}
+
+.nav2 button {
+    font-size: 1vw;
+    font-weight: 700;
+    padding: 0.8vw 1.4vw;
+    background-color: #263e3e;
+    border-radius: 1vw;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.nav2 h3 {
+    font-size: 1.5vw;
+    font-family: 700;
+}
+
+/* Soar */
+#mine {
+    width: 100vw;
+    height: calc(100% - 15vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 0;
+}
+
+.soar {
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.soar p {
+    font-size: 1.7vw;
+    padding: 0.5vw 0;
+}
+
+.soar button {
+    font-size: 1vw;
+    font-weight: 600;
+    padding: 1vw 1.5vw;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    background-color: #263e3e;
+    border-radius: 1.5vw;
+    cursor: pointer;
+}
+
+/* second portion */
+.portion {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#leftportion {
+    /* padding: 5vw 3.5vw; */
+}
+
+#leftportion h1 {
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+#leftportion p {
+    font-size: 2vw;
+    padding: 1.5vw 0;
+}
+
+.red {
+    color: #114f5a;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.rightportion {
+    width: 25%;
+    padding: 3vw 1vw;
+    background-color: #114f5a;
+    color: whitesmoke;
+}
+
+.rightportion p {
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin: 1.1vw 1vw;
+}
+
+/* third part */
+
+.photo {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+}
+
+.image1 {
+    width: 50%;
+}
+
+.text {
+    width: 50%;
+    color: aliceblue;
+    background-color: #114f5a;
+    font-size: 20px;
+    padding: 5.7vw 4.5vw;
+}
+
+.text h1 {
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.text p {
+    font-size: 1.6vw;
+    padding: 1.2vw 0;
+}
+
+/* part four */
+.div1 {
+    height: 60vh;
+}
+
+.div2 {
+    margin: 5%;
+}
+
+.div2 h1 {
+    text-align: center;
+    font-size: 4.5vw;
+    font-weight: 800;
+}
+
+#maindiv {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.child {
+    background-color: #114f5a;
+    color: whitesmoke;
+    width: 20vw;
+    text-align: justify;
+    word-spacing: 1.2vw;
+    font-size: 1.5vw;
+    margin: 3vw;
+    padding: 3vw;
+    height: 60%;
+}
+
+.name {
+    display: flex;
+    justify-content: right;
+    align-items: start;
+    height: 10%;
+}
+
+.ptext {
+    height: 90%;
+}
+
+/* Media Query */
+@media (max-width:380px) {
+    .parentdiv {
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav {
+        padding: 0 1vw;
+        height: 15vh;
+    }
+
+    .nav h1 {
+        font-size: 4.5vw;
+    }
+
+    .nav2 h3 {
+        font-size: 2.1vw;
+        display: none;
+    }
+
+    .nav2 button {
+        font-size: 1.5vw;
+        display: none;
+    }
+
+    .nav i{
+        font-size: 4.5vw;
+    }
+
+    .ri-menu-3-fill{
+        display: block;
+    }
+
+    #mine {
+        width: 100vw;
+        height: calc(100% - 15vh);
+    }
+
+    .soar h1 {
+        font-size: 7.3vw;
+    }
+
+    .soar p {
+        font-size: 4vw;
+        padding: 0.8vw 0;
+    }
+
+    .soar button {
+        padding: 2vw 4vw;
+        border-radius: 1.5vw;
+        border-radius: 2.7vw;
+        font-size: 3.5vw;
+    }
+
+    .portion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #leftportion{
+        margin: 3.5vw 0;
+    }
+
+    #leftportion h1 {
+        font-size: 5.8vw;
+        font-weight: 600;
+    }
+
+    #leftportion p {
+        font-size: 4vw;
+        padding: 2.6vw 0;
+    }
+
+    .red {
+        font-size: 3vw;
+    }
+
+    .rightportion {
+        width: 50%;
+        height: 45%;
+
+    }
+
+    .rightportion p {
+        font-size: 3.5vw;
+        font-weight: 600;
+        margin: 4.7vw 0;
+        text-align: center;
+    }
+
+    .photo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image1 {
+        width: 100%;
+        height: 60vh;
+        border: 2px solid #114f5a;
+    }
+
+    .text {
+        margin-top: 0.5vw;
+        height: 60vh;
+        width: 100%;
+        padding: 9.8vw 4vw;
+    }
+
+    .text h1 {
+        width: 90vw;
+        font-size: 5.2vw;
+    }
+
+    .text p {
+        width: 90vw;
+        font-size: 3.6vw;
+        font-weight: 500;
+        padding: 4vw 0;
+    }
+
+    .div2{
+        margin-top: 7.2vw;
+    }
+
+    .div2 h1 {
+        font-size: 5.5vw;
+    }
+
+    #maindiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child {
+        width: 30vw;
+        font-size: 2.3vw;
+        font-weight: 500;
+        margin: 1.7vw;
+    }
+}
