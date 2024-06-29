@@ -34,8 +34,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #dadada;
-    /* background-color: red; */
+    border-bottom: 2px solid #dadada; 
 }
 
 .nav h1 {
@@ -226,7 +225,7 @@ body {
 }
 
 /* Media Query */
-@media (max-width:380px) {
+@media (max-width:400px) {
     .parentdiv {
         height: 100%;
         width: 100%;
